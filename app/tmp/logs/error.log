@@ -1,0 +1,528 @@
+2013-09-22 16:22:58 Error: [MissingTableException] Table aros_acos for model ArosAco was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'aros_acos',
+  'class' => 'ArosAco',
+  'ds' => 'default',
+)
+Request URL: /cakephp241/admin/aros_acos
+Stack Trace:
+#0 C:\wamp\www\cakephp241\lib\Cake\Model\Model.php(3310): Model->setSource('aros_acos')
+#1 C:\wamp\www\cakephp241\lib\Cake\Model\Model.php(1318): Model->getDataSource()
+#2 C:\wamp\www\cakephp241\lib\Cake\Model\Model.php(1401): Model->schema()
+#3 C:\wamp\www\cakephp241\lib\Cake\Model\Model.php(1389): Model->hasField('title', false)
+#4 C:\wamp\www\cakephp241\lib\Cake\Model\Model.php(878): Model->hasField(Array)
+#5 C:\wamp\www\cakephp241\lib\Cake\Controller\Scaffold.php(133): Model->__get('displayField')
+#6 C:\wamp\www\cakephp241\lib\Cake\Controller\Controller.php(535): Scaffold->__construct(Object(ArosAcosController), Object(CakeRequest))
+#7 C:\wamp\www\cakephp241\lib\Cake\Controller\Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#8 C:\wamp\www\cakephp241\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\www\cakephp241\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ArosAcosController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\wamp\www\cakephp241\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-09-22 16:23:15 Error: [MissingTableException] Table aros_acos for model ArosAco was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'aros_acos',
+  'class' => 'ArosAco',
+  'ds' => 'default',
+)
+Request URL: /cakephp241/admin/aros_acos
+Stack Trace:
+#0 C:\wamp\www\cakephp241\lib\Cake\Model\Model.php(3310): Model->setSource('aros_acos')
+#1 C:\wamp\www\cakephp241\lib\Cake\Model\Model.php(1318): Model->getDataSource()
+#2 C:\wamp\www\cakephp241\lib\Cake\Model\Model.php(1401): Model->schema()
+#3 C:\wamp\www\cakephp241\lib\Cake\Model\Model.php(1389): Model->hasField('title', false)
+#4 C:\wamp\www\cakephp241\lib\Cake\Model\Model.php(878): Model->hasField(Array)
+#5 C:\wamp\www\cakephp241\lib\Cake\Controller\Scaffold.php(133): Model->__get('displayField')
+#6 C:\wamp\www\cakephp241\lib\Cake\Controller\Controller.php(535): Scaffold->__construct(Object(ArosAcosController), Object(CakeRequest))
+#7 C:\wamp\www\cakephp241\lib\Cake\Controller\Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#8 C:\wamp\www\cakephp241\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\www\cakephp241\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ArosAcosController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\wamp\www\cakephp241\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-09-22 16:31:43 Error: [MissingTableException] Table aros_acos for model ArosAco was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'aros_acos',
+  'class' => 'ArosAco',
+  'ds' => 'default',
+)
+Request URL: /cakephp241/admin/aros_acos
+Stack Trace:
+#0 C:\wamp\www\cakephp241\lib\Cake\Model\Model.php(3310): Model->setSource('aros_acos')
+#1 C:\wamp\www\cakephp241\lib\Cake\Model\Model.php(1318): Model->getDataSource()
+#2 C:\wamp\www\cakephp241\lib\Cake\Model\Model.php(1401): Model->schema()
+#3 C:\wamp\www\cakephp241\lib\Cake\Model\Model.php(1389): Model->hasField('title', false)
+#4 C:\wamp\www\cakephp241\lib\Cake\Model\Model.php(878): Model->hasField(Array)
+#5 C:\wamp\www\cakephp241\lib\Cake\Controller\Scaffold.php(133): Model->__get('displayField')
+#6 C:\wamp\www\cakephp241\lib\Cake\Controller\Controller.php(535): Scaffold->__construct(Object(ArosAcosController), Object(CakeRequest))
+#7 C:\wamp\www\cakephp241\lib\Cake\Controller\Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#8 C:\wamp\www\cakephp241\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\www\cakephp241\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ArosAcosController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\wamp\www\cakephp241\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-09-22 17:35:30 Error: [MissingControllerException] Controller class ArosAcosController could not be found.
+Exception Attributes: array (
+  'class' => 'ArosAcosController',
+  'plugin' => 'Admin',
+)
+Request URL: /cakephp241/admin/aros_acos
+Stack Trace:
+#0 C:\wamp\www\cakephp241\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-22 18:35:55 Error: [MissingControllerException] Controller class ArosAcosController could not be found.
+Exception Attributes: array (
+  'class' => 'ArosAcosController',
+  'plugin' => 'Admin',
+)
+Request URL: /cakephp241/admin/aros_acos
+Stack Trace:
+#0 C:\wamp\www\cakephp241\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-22 19:51:40 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp241/users/login
+Stack Trace:
+#0 C:\wamp\www\cakephp241\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-22 19:53:16 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /cakephp241/users/login
+Stack Trace:
+#0 C:\wamp\www\cakephp241\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakephp241\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakephp241\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-22 19:53:34 Error: [MissingViewException] View file "C:\wamp\www\cakephp241\app\View\Users\login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\cakephp241\\app\\View\\Users\\login.ctp',
+)
+Request URL: /cakephp241/users/login
+Stack Trace:
+#0 C:\wamp\www\cakephp241\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakephp241\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\cakephp241\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\cakephp241\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakephp241\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-22 19:54:36 Error: [MissingPluginException] Plugin AclManager could not be found.
+Exception Attributes: array (
+  'plugin' => 'AclManager',
+)
+Stack Trace:
+#0 C:\wamp\www\cakephp241\app\Config\bootstrap.php(74): CakePlugin::load('AclManager', Array)
+#1 C:\wamp\www\cakephp241\lib\Cake\Core\Configure.php(92): include('C:\wamp\www\cak...')
+#2 C:\wamp\www\cakephp241\lib\Cake\bootstrap.php(177): Configure::bootstrap(true)
+#3 C:\wamp\www\cakephp241\app\webroot\index.php(92): include('C:\wamp\www\cak...')
+#4 {main}
+2013-09-22 19:54:37 Error: [MissingPluginException] Plugin AclManager could not be found.
+Exception Attributes: array (
+  'plugin' => 'AclManager',
+)
+Stack Trace:
+#0 C:\wamp\www\cakephp241\app\Config\bootstrap.php(74): CakePlugin::load('AclManager', Array)
+#1 C:\wamp\www\cakephp241\lib\Cake\Core\Configure.php(92): include('C:\wamp\www\cak...')
+#2 C:\wamp\www\cakephp241\lib\Cake\bootstrap.php(177): Configure::bootstrap(true)
+#3 C:\wamp\www\cakephp241\app\webroot\index.php(92): include('C:\wamp\www\cak...')
+#4 {main}
+2013-09-22 19:54:37 Error: [MissingPluginException] Plugin AclManager could not be found.
+Exception Attributes: array (
+  'plugin' => 'AclManager',
+)
+Stack Trace:
+#0 C:\wamp\www\cakephp241\app\Config\bootstrap.php(74): CakePlugin::load('AclManager', Array)
+#1 C:\wamp\www\cakephp241\lib\Cake\Core\Configure.php(92): include('C:\wamp\www\cak...')
+#2 C:\wamp\www\cakephp241\lib\Cake\bootstrap.php(177): Configure::bootstrap(true)
+#3 C:\wamp\www\cakephp241\app\webroot\index.php(92): include('C:\wamp\www\cak...')
+#4 {main}
+2013-09-22 19:54:37 Error: [MissingPluginException] Plugin AclManager could not be found.
+Exception Attributes: array (
+  'plugin' => 'AclManager',
+)
+Stack Trace:
+#0 C:\wamp\www\cakephp241\app\Config\bootstrap.php(74): CakePlugin::load('AclManager', Array)
+#1 C:\wamp\www\cakephp241\lib\Cake\Core\Configure.php(92): include('C:\wamp\www\cak...')
+#2 C:\wamp\www\cakephp241\lib\Cake\bootstrap.php(177): Configure::bootstrap(true)
+#3 C:\wamp\www\cakephp241\app\webroot\index.php(92): include('C:\wamp\www\cak...')
+#4 {main}
+2013-09-22 19:54:38 Error: [MissingPluginException] Plugin AclManager could not be found.
+Exception Attributes: array (
+  'plugin' => 'AclManager',
+)
+Stack Trace:
+#0 C:\wamp\www\cakephp241\app\Config\bootstrap.php(74): CakePlugin::load('AclManager', Array)
+#1 C:\wamp\www\cakephp241\lib\Cake\Core\Configure.php(92): include('C:\wamp\www\cak...')
+#2 C:\wamp\www\cakephp241\lib\Cake\bootstrap.php(177): Configure::bootstrap(true)
+#3 C:\wamp\www\cakephp241\app\webroot\index.php(92): include('C:\wamp\www\cak...')
+#4 {main}
+2013-09-22 19:54:41 Error: [MissingPluginException] Plugin AclManager could not be found.
+Exception Attributes: array (
+  'plugin' => 'AclManager',
+)
+Stack Trace:
+#0 C:\wamp\www\cakephp241\app\Config\bootstrap.php(74): CakePlugin::load('AclManager', Array)
+#1 C:\wamp\www\cakephp241\lib\Cake\Core\Configure.php(92): include('C:\wamp\www\cak...')
+#2 C:\wamp\www\cakephp241\lib\Cake\bootstrap.php(177): Configure::bootstrap(true)
+#3 C:\wamp\www\cakephp241\app\webroot\index.php(92): include('C:\wamp\www\cak...')
+#4 {main}
+2013-09-22 19:54:42 Error: [MissingPluginException] Plugin AclManager could not be found.
+Exception Attributes: array (
+  'plugin' => 'AclManager',
+)
+Stack Trace:
+#0 C:\wamp\www\cakephp241\app\Config\bootstrap.php(74): CakePlugin::load('AclManager', Array)
+#1 C:\wamp\www\cakephp241\lib\Cake\Core\Configure.php(92): include('C:\wamp\www\cak...')
+#2 C:\wamp\www\cakephp241\lib\Cake\bootstrap.php(177): Configure::bootstrap(true)
+#3 C:\wamp\www\cakephp241\app\webroot\index.php(92): include('C:\wamp\www\cak...')
+#4 {main}
+2013-09-22 19:54:42 Error: [MissingPluginException] Plugin AclManager could not be found.
+Exception Attributes: array (
+  'plugin' => 'AclManager',
+)
+Stack Trace:
+#0 C:\wamp\www\cakephp241\app\Config\bootstrap.php(74): CakePlugin::load('AclManager', Array)
+#1 C:\wamp\www\cakephp241\lib\Cake\Core\Configure.php(92): include('C:\wamp\www\cak...')
+#2 C:\wamp\www\cakephp241\lib\Cake\bootstrap.php(177): Configure::bootstrap(true)
+#3 C:\wamp\www\cakephp241\app\webroot\index.php(92): include('C:\wamp\www\cak...')
+#4 {main}
+2013-09-22 19:54:42 Error: [MissingPluginException] Plugin AclManager could not be found.
+Exception Attributes: array (
+  'plugin' => 'AclManager',
+)
+Stack Trace:
+#0 C:\wamp\www\cakephp241\app\Config\bootstrap.php(74): CakePlugin::load('AclManager', Array)
+#1 C:\wamp\www\cakephp241\lib\Cake\Core\Configure.php(92): include('C:\wamp\www\cak...')
+#2 C:\wamp\www\cakephp241\lib\Cake\bootstrap.php(177): Configure::bootstrap(true)
+#3 C:\wamp\www\cakephp241\app\webroot\index.php(92): include('C:\wamp\www\cak...')
+#4 {main}
+2013-09-22 19:54:43 Error: [MissingPluginException] Plugin AclManager could not be found.
+Exception Attributes: array (
+  'plugin' => 'AclManager',
+)
+Stack Trace:
+#0 C:\wamp\www\cakephp241\app\Config\bootstrap.php(74): CakePlugin::load('AclManager', Array)
+#1 C:\wamp\www\cakephp241\lib\Cake\Core\Configure.php(92): include('C:\wamp\www\cak...')
+#2 C:\wamp\www\cakephp241\lib\Cake\bootstrap.php(177): Configure::bootstrap(true)
+#3 C:\wamp\www\cakephp241\app\webroot\index.php(92): include('C:\wamp\www\cak...')
+#4 {main}
+2013-09-22 19:55:41 Error: [MissingViewException] View file "C:\wamp\www\cakephp241\app\View\Users\login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\cakephp241\\app\\View\\Users\\login.ctp',
+)
+Request URL: /cakephp241/users/login
+Stack Trace:
+#0 C:\wamp\www\cakephp241\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakephp241\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\cakephp241\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\cakephp241\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakephp241\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-22 19:56:56 Error: [MissingPluginException] Plugin AclExtras could not be found.
+Exception Attributes: array (
+  'plugin' => 'AclExtras',
+)
+Stack Trace:
+#0 C:\wamp\www\cakephp241\app\Config\bootstrap.php(128): CakePlugin::load('AclExtras')
+#1 C:\wamp\www\cakephp241\lib\Cake\Core\Configure.php(92): include('C:\wamp\www\cak...')
+#2 C:\wamp\www\cakephp241\lib\Cake\bootstrap.php(177): Configure::bootstrap(true)
+#3 C:\wamp\www\cakephp241\app\webroot\index.php(92): include('C:\wamp\www\cak...')
+#4 {main}
+2013-09-22 19:56:56 Error: [MissingPluginException] Plugin AclExtras could not be found.
+Exception Attributes: array (
+  'plugin' => 'AclExtras',
+)
+Stack Trace:
+#0 C:\wamp\www\cakephp241\app\Config\bootstrap.php(128): CakePlugin::load('AclExtras')
+#1 C:\wamp\www\cakephp241\lib\Cake\Core\Configure.php(92): include('C:\wamp\www\cak...')
+#2 C:\wamp\www\cakephp241\lib\Cake\bootstrap.php(177): Configure::bootstrap(true)
+#3 C:\wamp\www\cakephp241\app\webroot\index.php(92): include('C:\wamp\www\cak...')
+#4 {main}
+2013-09-22 19:56:57 Error: [MissingPluginException] Plugin AclExtras could not be found.
+Exception Attributes: array (
+  'plugin' => 'AclExtras',
+)
+Stack Trace:
+#0 C:\wamp\www\cakephp241\app\Config\bootstrap.php(128): CakePlugin::load('AclExtras')
+#1 C:\wamp\www\cakephp241\lib\Cake\Core\Configure.php(92): include('C:\wamp\www\cak...')
+#2 C:\wamp\www\cakephp241\lib\Cake\bootstrap.php(177): Configure::bootstrap(true)
+#3 C:\wamp\www\cakephp241\app\webroot\index.php(92): include('C:\wamp\www\cak...')
+#4 {main}
+2013-09-22 19:56:57 Error: [MissingPluginException] Plugin AclExtras could not be found.
+Exception Attributes: array (
+  'plugin' => 'AclExtras',
+)
+Stack Trace:
+#0 C:\wamp\www\cakephp241\app\Config\bootstrap.php(128): CakePlugin::load('AclExtras')
+#1 C:\wamp\www\cakephp241\lib\Cake\Core\Configure.php(92): include('C:\wamp\www\cak...')
+#2 C:\wamp\www\cakephp241\lib\Cake\bootstrap.php(177): Configure::bootstrap(true)
+#3 C:\wamp\www\cakephp241\app\webroot\index.php(92): include('C:\wamp\www\cak...')
+#4 {main}
+2013-09-22 19:56:57 Error: [MissingPluginException] Plugin AclExtras could not be found.
+Exception Attributes: array (
+  'plugin' => 'AclExtras',
+)
+Stack Trace:
+#0 C:\wamp\www\cakephp241\app\Config\bootstrap.php(128): CakePlugin::load('AclExtras')
+#1 C:\wamp\www\cakephp241\lib\Cake\Core\Configure.php(92): include('C:\wamp\www\cak...')
+#2 C:\wamp\www\cakephp241\lib\Cake\bootstrap.php(177): Configure::bootstrap(true)
+#3 C:\wamp\www\cakephp241\app\webroot\index.php(92): include('C:\wamp\www\cak...')
+#4 {main}
+2013-09-22 19:57:02 Error: [MissingPluginException] Plugin AclExtras could not be found.
+Exception Attributes: array (
+  'plugin' => 'AclExtras',
+)
+Stack Trace:
+#0 C:\wamp\www\cakephp241\app\Config\bootstrap.php(128): CakePlugin::load('AclExtras')
+#1 C:\wamp\www\cakephp241\lib\Cake\Core\Configure.php(92): include('C:\wamp\www\cak...')
+#2 C:\wamp\www\cakephp241\lib\Cake\bootstrap.php(177): Configure::bootstrap(true)
+#3 C:\wamp\www\cakephp241\app\webroot\index.php(92): include('C:\wamp\www\cak...')
+#4 {main}
+2013-09-22 19:57:02 Error: [MissingPluginException] Plugin AclExtras could not be found.
+Exception Attributes: array (
+  'plugin' => 'AclExtras',
+)
+Stack Trace:
+#0 C:\wamp\www\cakephp241\app\Config\bootstrap.php(128): CakePlugin::load('AclExtras')
+#1 C:\wamp\www\cakephp241\lib\Cake\Core\Configure.php(92): include('C:\wamp\www\cak...')
+#2 C:\wamp\www\cakephp241\lib\Cake\bootstrap.php(177): Configure::bootstrap(true)
+#3 C:\wamp\www\cakephp241\app\webroot\index.php(92): include('C:\wamp\www\cak...')
+#4 {main}
+2013-09-22 19:57:02 Error: [MissingPluginException] Plugin AclExtras could not be found.
+Exception Attributes: array (
+  'plugin' => 'AclExtras',
+)
+Stack Trace:
+#0 C:\wamp\www\cakephp241\app\Config\bootstrap.php(128): CakePlugin::load('AclExtras')
+#1 C:\wamp\www\cakephp241\lib\Cake\Core\Configure.php(92): include('C:\wamp\www\cak...')
+#2 C:\wamp\www\cakephp241\lib\Cake\bootstrap.php(177): Configure::bootstrap(true)
+#3 C:\wamp\www\cakephp241\app\webroot\index.php(92): include('C:\wamp\www\cak...')
+#4 {main}
+2013-09-22 19:57:02 Error: [MissingPluginException] Plugin AclExtras could not be found.
+Exception Attributes: array (
+  'plugin' => 'AclExtras',
+)
+Stack Trace:
+#0 C:\wamp\www\cakephp241\app\Config\bootstrap.php(128): CakePlugin::load('AclExtras')
+#1 C:\wamp\www\cakephp241\lib\Cake\Core\Configure.php(92): include('C:\wamp\www\cak...')
+#2 C:\wamp\www\cakephp241\lib\Cake\bootstrap.php(177): Configure::bootstrap(true)
+#3 C:\wamp\www\cakephp241\app\webroot\index.php(92): include('C:\wamp\www\cak...')
+#4 {main}
+2013-09-22 19:57:03 Error: [MissingPluginException] Plugin AclExtras could not be found.
+Exception Attributes: array (
+  'plugin' => 'AclExtras',
+)
+Stack Trace:
+#0 C:\wamp\www\cakephp241\app\Config\bootstrap.php(128): CakePlugin::load('AclExtras')
+#1 C:\wamp\www\cakephp241\lib\Cake\Core\Configure.php(92): include('C:\wamp\www\cak...')
+#2 C:\wamp\www\cakephp241\lib\Cake\bootstrap.php(177): Configure::bootstrap(true)
+#3 C:\wamp\www\cakephp241\app\webroot\index.php(92): include('C:\wamp\www\cak...')
+#4 {main}
+2013-09-22 19:57:39 Error: [MissingViewException] View file "C:\wamp\www\cakephp241\app\View\Users\login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\cakephp241\\app\\View\\Users\\login.ctp',
+)
+Request URL: /cakephp241/users/login
+Stack Trace:
+#0 C:\wamp\www\cakephp241\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakephp241\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\cakephp241\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\cakephp241\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakephp241\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-22 19:59:13 Error: [MissingViewException] View file "C:\wamp\www\cakephp241\app\View\Users\login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\cakephp241\\app\\View\\Users\\login.ctp',
+)
+Request URL: /cakephp241/users/login
+Stack Trace:
+#0 C:\wamp\www\cakephp241\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakephp241\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\cakephp241\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\cakephp241\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakephp241\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-22 19:59:17 Error: [MissingViewException] View file "C:\wamp\www\cakephp241\app\View\Users\login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\cakephp241\\app\\View\\Users\\login.ctp',
+)
+Request URL: /cakephp241/users/login
+Stack Trace:
+#0 C:\wamp\www\cakephp241\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakephp241\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\cakephp241\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\cakephp241\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakephp241\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-22 20:00:05 Error: [MissingViewException] View file "C:\wamp\www\cakephp241\app\View\Users\login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\cakephp241\\app\\View\\Users\\login.ctp',
+)
+Request URL: /cakephp241/users/login
+Stack Trace:
+#0 C:\wamp\www\cakephp241\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakephp241\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\cakephp241\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\cakephp241\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakephp241\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-22 20:00:10 Error: [MissingViewException] View file "C:\wamp\www\cakephp241\app\View\Users\login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\cakephp241\\app\\View\\Users\\login.ctp',
+)
+Request URL: /cakephp241/users/login
+Stack Trace:
+#0 C:\wamp\www\cakephp241\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakephp241\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\cakephp241\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\cakephp241\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakephp241\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-24 18:39:55 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Stack Trace:
+#0 /var/www/cakephp241/app/Config/bootstrap.php(73): CakePlugin::load('DebugKit')
+#1 /var/www/cakephp241/lib/Cake/Core/Configure.php(92): include('/var/www/cakeph...')
+#2 /var/www/cakephp241/lib/Cake/bootstrap.php(177): Configure::bootstrap(true)
+#3 /var/www/cakephp241/app/webroot/index.php(92): include('/var/www/cakeph...')
+#4 {main}
+2013-09-24 18:40:06 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Stack Trace:
+#0 /var/www/cakephp241/app/Config/bootstrap.php(73): CakePlugin::load('DebugKit')
+#1 /var/www/cakephp241/lib/Cake/Core/Configure.php(92): include('/var/www/cakeph...')
+#2 /var/www/cakephp241/lib/Cake/bootstrap.php(177): Configure::bootstrap(true)
+#3 /var/www/cakephp241/app/webroot/index.php(92): include('/var/www/cakeph...')
+#4 {main}
+2013-09-24 18:41:30 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Stack Trace:
+#0 /var/www/cakephp241/app/Config/bootstrap.php(73): CakePlugin::load('DebugKit')
+#1 /var/www/cakephp241/lib/Cake/Core/Configure.php(92): include('/var/www/cakeph...')
+#2 /var/www/cakephp241/lib/Cake/bootstrap.php(177): Configure::bootstrap(true)
+#3 /var/www/cakephp241/app/webroot/index.php(92): include('/var/www/cakeph...')
+#4 {main}
+2013-09-24 18:42:44 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Stack Trace:
+#0 /var/www/cakephp241/lib/Cake/Core/CakePlugin.php(130): CakePlugin::load('DebugKit', Array)
+#1 /var/www/cakephp241/app/Config/bootstrap.php(75): CakePlugin::loadAll(Array)
+#2 /var/www/cakephp241/lib/Cake/Core/Configure.php(92): include('/var/www/cakeph...')
+#3 /var/www/cakephp241/lib/Cake/bootstrap.php(177): Configure::bootstrap(true)
+#4 /var/www/cakephp241/app/webroot/index.php(92): include('/var/www/cakeph...')
+#5 {main}
+2013-09-24 18:42:49 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Stack Trace:
+#0 /var/www/cakephp241/lib/Cake/Core/CakePlugin.php(130): CakePlugin::load('DebugKit', Array)
+#1 /var/www/cakephp241/app/Config/bootstrap.php(75): CakePlugin::loadAll(Array)
+#2 /var/www/cakephp241/lib/Cake/Core/Configure.php(92): include('/var/www/cakeph...')
+#3 /var/www/cakephp241/lib/Cake/bootstrap.php(177): Configure::bootstrap(true)
+#4 /var/www/cakephp241/app/webroot/index.php(92): include('/var/www/cakeph...')
+#5 {main}
+2013-09-24 18:43:14 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /cakephp241/users/login
+Stack Trace:
+#0 /var/www/cakephp241/lib/Cake/Model/Datasource/DboSource.php(262): Mysql->connect()
+#1 /var/www/cakephp241/lib/Cake/Model/ConnectionManager.php(107): DboSource->__construct(Array)
+#2 /var/www/cakephp241/lib/Cake/Model/Model.php(3288): ConnectionManager::getDataSource('default')
+#3 /var/www/cakephp241/lib/Cake/Model/Model.php(1107): Model->setDataSource('default')
+#4 /var/www/cakephp241/lib/Cake/Model/Model.php(3310): Model->setSource('users')
+#5 /var/www/cakephp241/lib/Cake/Model/Model.php(1318): Model->getDataSource()
+#6 /var/www/cakephp241/lib/Cake/View/Helper/FormHelper.php(199): Model->schema()
+#7 /var/www/cakephp241/lib/Cake/View/Helper/FormHelper.php(451): FormHelper->_introspectModel('User', 'fields')
+#8 /var/www/cakephp241/app/View/Users/login.ctp(3): FormHelper->create('User', Array)
+#9 /var/www/cakephp241/lib/Cake/View/View.php(931): include('/var/www/cakeph...')
+#10 /var/www/cakephp241/lib/Cake/View/View.php(893): View->_evaluate('/var/www/cakeph...', Array)
+#11 /var/www/cakephp241/lib/Cake/View/View.php(462): View->_render('/var/www/cakeph...')
+#12 /var/www/cakephp241/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#13 /var/www/cakephp241/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#14 /var/www/cakephp241/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /var/www/cakephp241/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2013-09-24 18:43:51 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /cakephp241/users/login
+Stack Trace:
+#0 /var/www/cakephp241/lib/Cake/Model/Model.php(3310): Model->setSource('users')
+#1 /var/www/cakephp241/lib/Cake/Model/Model.php(1318): Model->getDataSource()
+#2 /var/www/cakephp241/lib/Cake/View/Helper/FormHelper.php(199): Model->schema()
+#3 /var/www/cakephp241/lib/Cake/View/Helper/FormHelper.php(451): FormHelper->_introspectModel('User', 'fields')
+#4 /var/www/cakephp241/app/View/Users/login.ctp(3): FormHelper->create('User', Array)
+#5 /var/www/cakephp241/lib/Cake/View/View.php(931): include('/var/www/cakeph...')
+#6 /var/www/cakephp241/lib/Cake/View/View.php(893): View->_evaluate('/var/www/cakeph...', Array)
+#7 /var/www/cakephp241/lib/Cake/View/View.php(462): View->_render('/var/www/cakeph...')
+#8 /var/www/cakephp241/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#9 /var/www/cakephp241/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#10 /var/www/cakephp241/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/cakephp241/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-09-24 18:44:48 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => 'Admin',
+)
+Request URL: /cakephp241/admin/users/login
+Stack Trace:
+#0 /var/www/cakephp241/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-24 18:45:13 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /cakephp241/users/login
+Stack Trace:
+#0 /var/www/cakephp241/lib/Cake/Model/Model.php(3310): Model->setSource('users')
+#1 /var/www/cakephp241/lib/Cake/Model/Model.php(1318): Model->getDataSource()
+#2 /var/www/cakephp241/lib/Cake/View/Helper/FormHelper.php(199): Model->schema()
+#3 /var/www/cakephp241/lib/Cake/View/Helper/FormHelper.php(451): FormHelper->_introspectModel('User', 'fields')
+#4 /var/www/cakephp241/app/View/Users/login.ctp(3): FormHelper->create('User', Array)
+#5 /var/www/cakephp241/lib/Cake/View/View.php(931): include('/var/www/cakeph...')
+#6 /var/www/cakephp241/lib/Cake/View/View.php(893): View->_evaluate('/var/www/cakeph...', Array)
+#7 /var/www/cakephp241/lib/Cake/View/View.php(462): View->_render('/var/www/cakeph...')
+#8 /var/www/cakephp241/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#9 /var/www/cakephp241/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#10 /var/www/cakephp241/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/cakephp241/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-09-24 18:45:28 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => 'Admin',
+)
+Request URL: /cakephp241/admin/users/login
+Stack Trace:
+#0 /var/www/cakephp241/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-24 18:50:19 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => 'Admin',
+)
+Request URL: /cakephp241/admin/users/login
+Stack Trace:
+#0 /var/www/cakephp241/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

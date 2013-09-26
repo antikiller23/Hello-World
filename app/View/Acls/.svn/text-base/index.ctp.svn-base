@@ -1,0 +1,164 @@
+<?php
+$this->Html->css(array('jquery.dataTables'), 'stylesheet', array('inline' => FALSE));
+$this->Html->script(
+    array(
+         'jquery.dataTables.min',
+         'jquery.uniform',
+         'acls_index'
+    ),
+    array('inline' => FALSE)
+);
+
+$this->set('title_for_layout', 'Centinela - ' . __('Acl Manager'));
+
+$this->extend('/Common/index_tab');
+
+$this->set('active_id', 'by_client');
+
+$this->set(
+    'nav_tabs',
+    array(
+         'by_client' => __("By Client"),
+         'by_user' => __("By User"),
+         'default_permissions' => __("Default Client Permissions"),
+    )
+);
+
+$this->assign('title', __('Acl Manager'));
+
+$this->Html->addCrumb(__('Permissions'), '/Acls/index');
+
+// ---------- TAB POR CLIENTES
+$this->start('by_client'); ?>
+<div class="tab-pane fade active in" id="by_client">
+    <div class="row-fluid">
+        <div class="span2">
+            <?
+            echo $this->element(
+                'acl_tab',
+                array(
+                     'aro' => $clients,
+                     'aco' => $aco,
+                     'field' => 'Acl.client',
+                     'label' => 'Client'
+                )
+            );
+            ?>
+        </div>
+        <div class="span10">
+            <?
+            echo $this->element(
+                'table',
+                array(
+                     'table_id' => 'client_table',
+                     'headers' => array('Client', 'Path', 'Create', 'Read', 'Update', 'Delete')
+                )
+            );
+            ?>
+        </div>
+    </div>
+</div>
+<? $this->end();
+// ---------- FIN TAB POR CLIENTES
+
+// ---------- TAB POR USUARIOS
+$this->start('by_user'); ?>
+<div class="tab-pane fade in" id="by_user">
+    <div class="row-fluid">
+        <div class="span2">
+            <?
+            echo $this->element(
+                'acl_tab',
+                array(
+                     'aro' => $users,
+                     'aco' => $aco,
+                     'field' => 'Acl.user',
+                     'label' => 'User'
+                )
+            );
+
+            ?>
+        </div>
+        <div class="span10">
+            <?
+            echo $this->element(
+                'table',
+                array(
+                     'table_id' => 'user_table',
+                     'headers' => array('Client', 'Path', 'Create', 'Read', 'Update', 'Delete')
+                )
+            );
+            ?>
+        </div>
+    </div>
+</div>
+<?
+$this->end();
+// ----------  FIN TAB POR USUARIOS
+// ---------- DEFAULT USER PERMISSIONS
+$this->start('default_permissions'); ?>
+<div class="tab-pane fade in" id="default_permissions">
+    <div class="row-fluid">
+        <button id="sync" class="btn btn-info pull-right"><? echo __('Sync Clients'); ?></button>
+    </div>
+    <div class="row-fluid">
+        <div class="span2">
+            <?
+            echo $this->Form->create(
+                NULL,
+                array(
+                     'url' => array(
+                         'controller' => 'Acls',
+                         'action' => 'setDefault',
+                     ),
+                     'type' => 'post',
+                     'default' => FALSE,
+                     'inputDefaults' => array('class' => 'input-medium'),
+                     'class' => 'acl_form'
+                )
+            );
+
+            echo $this->Form->inputs(
+                array(
+                     'fieldset' => FALSE,
+                     'DefaultPermission.action' => array(
+                         'label' => 'Permission',
+                         'options' => array(
+                             'allow' => 'allow',
+                             'deny' => 'deny',
+                             'inherit' => 'inherit'
+                         ),
+                         'empty' => array('--' => __('(choose one)')),
+                         'div' => array('class' => 'control-group')
+                     ),
+                     'DefaultPermission.path' => array(
+                         'label' => 'Path',
+                         'options' => $aco,
+                         'empty' => array('--' => __('(choose one)')),
+                         'div' => array('class' => 'control-group')
+                     ),
+                )
+            );
+
+            echo $this->Form->end(
+                array(
+                     'label' => __('Submit'),
+                     'class' => 'btn btn-info'
+                )
+            );
+            ?>
+        </div>
+        <div class="span10">
+            <?
+            echo $this->element(
+                'table',
+                array(
+                     'table_id' => 'default_table',
+                     'headers' => array('Action', 'Path')
+                )
+            );
+            ?>
+        </div>
+    </div>
+</div>
+<? $this->end(); ?>
